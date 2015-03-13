@@ -1,0 +1,62 @@
+/* Mainly custom colors and margin alterations. */
+
+body {
+  background-color: #000;
+  margin: 6px;
+}
+
+/* I have no clue why this was needed for the bacgkround, but it was...*/
+.background {
+  background-color: #000;
+}
+
+a {
+  color: #19FF19;
+}
+
+/*override something*/
+a:hover {
+  color: #19FF19;
+}
+
+/*Google Fonts!*/
+.text-font {
+  font-family: 'Oswald', sans-serif;;
+}
+
+/*set background for modal*/
+.modal-background {
+  background-color: #5200CC;
+}
+
+/*set container background as an overlay*/
+.container-background {
+  background-color: #5200CC;
+}
+
+/*base text color*/
+.text-color {
+  color: #19FF19;
+}
+
+/*alternative text color*/
+.text-muted {
+  color: #85D6FF;
+  font-weight: 500;
+}
+
+/*adjust logo a little*/
+.title-logo {
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+
+/*adjust job title a little*/
+.subtitle {
+  margin-top: 2px;
+}
+
+/*simple indent used to close bottom row*/
+.indent {
+  margin-left: 14px;
+}
